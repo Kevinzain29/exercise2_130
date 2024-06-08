@@ -1,9 +1,14 @@
+body
+{
+    background-color: gray;
+}
+
 .carousel-item img{
     filter: brightness(1) contrast(1.2);
     padding-bottom: 20px;
 
 }
-
+    
 .headcard{
     display: flex;
     justify-content: center;
@@ -69,26 +74,33 @@
     border-radius: 10px;
 }
 /*Eksternal CSS untuk mengatur judul pada heading 1*/
-h1 {
+#ITeM {
     text-align: center;
 }
-/*Eksternal CSS untuk mengatur tabel*/
+
 table {
     width: 100%;
 }
-/*Eksternal CSS untuk mengatur header dari setiap kolom*/
+
 th {
     padding: 15px;
     text-align: left;
-    background-color: aquamarine;
+    background-color: lightgray;
 }
-/*Eksternal CSS untuk mengatur isi kolom*/
+
 td {
     padding: 20px;
     text-align: left;
 }
-/*Eksternal CSS untuk mengatur warna pada baris kolom*/
+
 tr{
     background-color: antiquewhite;
 }
+
+.footer {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+
 
